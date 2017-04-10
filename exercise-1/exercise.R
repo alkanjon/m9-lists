@@ -32,6 +32,9 @@ early.meals <- list(meals[1], meals[2])
 meal.items <- lapply(meals, length)
 
 # Write a function that adds pizza to every meal
-
+AddPizza <- function(meals){
+   
+}
 
 # Add pizza to every meal!
+lapply(meals, AddPizza)
